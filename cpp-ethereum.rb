@@ -19,6 +19,14 @@ class CppEthereum < Formula
   version "1.5.3"
 
   url "https://github.com/ethereum/aleth.git"
+  devel do
+  end
+
+  def install
+  end
+
+  test do
+  end
 
   odie "Aleth (formerly cpp-ethereum) has been removed from Homebrew. Please install binary releases from https://github.com/ethereum/aleth/releases."
 end
