@@ -16,6 +16,7 @@
 class CppEthereum < Formula
   desc "Ethereum C++ client"
   homepage "http://cpp-ethereum.org"
+  version "1.5.3"
 
   url "https://github.com/ethereum/aleth.git"
 
